@@ -10,13 +10,24 @@ body {
     background-color: #1f2937;
 }
 
+.top {
+    padding: 8px 100px 100px 100px;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
 nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 ul {
     list-style: none;
     display: flex;
+    gap: 24px;
 }
 
 a, .top p {
@@ -35,13 +46,64 @@ button {
     color: #e5e7eb;
     font-size: 18px;
     border: 1px solid #3882f6;
+    padding: 6px 40px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    margin-top: 100px;
+    gap: 24px;
+}
+
+.left {
+    flex: 1;
+}
+
+.image {
+    flex: 1;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero {
     font-size: 48px;
-    font-weight: bold;
-    color: #f9faf8
+    font-weight: 900;
+    color: #f9faf8;
 }
+
+.top .container .left p {
+    margin: 8px 0;
+}
+
+.main h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 48px 0;
+}
+
+.main .container {
+    margin: 0 auto 100px;
+    width: 800px;
+    text-align: center;
+    gap: 48px;
+}
+
+.main .box {
+    border: 5px solid #3882f6;
+    border-radius: 16px;
+    height: 150px;
+}
+
+.card p {
+    margin: 8px 0;
+}
+
 
 .footer {
     color: #e5e7eb;
