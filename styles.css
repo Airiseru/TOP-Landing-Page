@@ -87,7 +87,7 @@ button {
     margin: 48px 0;
 }
 
-.main .container {
+.main .info {
     margin: 0 auto 100px;
     width: 800px;
     text-align: center;
@@ -127,6 +127,34 @@ button {
     text-align: end;
 }
 
+.main .cta {
+    background-color: #3882f6;
+    padding: 50px;
+    margin: 0 100px 100px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.main .cta .left {
+    color: #e5e7eb;
+    text-align: left;
+    margin-left: 75px
+}
+
+.cta .left h3 {
+    font-size: 24px;
+}
+
+.cta .left p {
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.cta .cta-button {
+    border-color: white;
+    height: 35px;
+    margin-right: 75px;
+}
 
 .footer {
     color: #e5e7eb;
